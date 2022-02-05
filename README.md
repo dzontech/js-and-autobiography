@@ -1,2 +1,2 @@
 # js-and-autobiography
-University beginer project with HTML and CSS3
+University beginner project with HTML and CSS3
