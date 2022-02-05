@@ -1,0 +1,164 @@
+.harli
+{
+    color:white;
+    font-size:20;
+    font-family: cursive;
+    left:800;
+    position:relative;
+    bottom:870;
+}
+.header1
+{
+    position: relative;
+    bottom:70;
+    padding: 3%;
+    background-image: url(8.jpg);
+    background-size:cover;
+    text-align: center;
+    text-shadow: 10;
+    font-size: 50;
+    font-family: cursive;
+    -webkit-text-fill-color: white;
+}
+.obrni {
+    position: relative;
+    left:300;
+    bottom:1000;
+    background-color: transparent;
+    width: 750px;
+    height: 421px;
+    perspective: 1000px;
+  }
+  
+  .okreni {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .obrni:hover .okreni {
+    transform: rotateY(180deg);
+  }
+  
+  .obrni-front, .obrni-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .obrni-front {
+    background-image: url(js.jpg);
+    color: black;
+    z-index: 2;
+  }
+  
+  .obrni-back {
+    background-image: url(js1.jpg);
+    background-size: 100%;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+  }
+  .kartex
+  {
+      color:white;
+      font-size:20;
+      font-family: cursive;
+      position:relative;
+      bottom:1000;
+      left:100;
+      shape-outside: border-box;
+      height: 200;
+      width:1300;
+  }
+  .link
+  {
+      color:white;
+      position: relative;
+      left:1120;
+      bottom:781;
+      font-family:cursive;
+  }
+  .link a:visited
+  {
+      color:yellow;
+      text-decoration: none;
+  }
+  .link a:hover
+  {
+      color:white;
+      text-decoration:none;
+  }
+  .poccopy2
+  {
+    width:90%;
+    height: 50%;
+    padding-left: 5px;
+    padding-right: 40px;
+    padding-bottom:220;
+    margin:50px;
+    color:white;
+    font-family: cursive;
+    font-size: 20;
+    text-align: left;
+    line-height: 35px;
+    background: rgba(0, 0 ,0, 0.5);
+    -moz-box-shadow:0 0 0 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 0 10px rgba(0,0,0,0.5);
+    box-shadow:0 0 0 10px rgba(0,0,0,0.5);
+  }
+.texigre
+{
+  font-family: cursive;
+  font-size:20;
+  color:white;
+  left:100;
+  bottom:900;
+  position:relative;
+}
+.poccopy4{
+  position: relative;
+  width:90%;
+  height: 900px;
+  padding-left: 5px;
+  padding-right: 40px;
+  padding-bottom: 150;
+  margin:50px;
+  color:white;
+  font-family: cursive;
+  font-size: 20;
+  text-align: left;
+  line-height: 35px;
+  background: rgba(0, 0 ,0, 0.5);
+  -moz-box-shadow:0 0 0 10px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 0 10px rgba(0,0,0,0.5);
+  box-shadow:0 0 0 10px rgba(0,0,0,0.5);
+  }
+  @media(max-width){
+  .obrni
+  .okreni
+  .knjiga
+  .mus
+  .film
+  .bio
+  .act
+  .progimg
+  .body
+  .header
+  .het
+  .hete
+  .ul
+  .poccopy2
+  .poccopy4
+  .poccopy3
+  .poccopy
+  .textpocetna
+  {
+    width: 300;
+    height: 250;
+  }
+}
