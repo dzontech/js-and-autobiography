@@ -1,0 +1,97 @@
+.velicina
+{
+    width:57;
+    height: 32;
+    position: relative;
+    top:11;
+    bottom:2;
+    right: 2;
+    left: 30;
+}
+.textpocetna
+{
+    margin-bottom: 60;
+    width:90%;
+    height: 100vh;
+    padding-left: 5px;
+    padding-right: 40px;
+    margin:50px;
+    color:white;
+    font-family: cursive;
+    font-size: 20;
+    text-align: left;
+    line-height: 35px;
+    background: rgba(0, 0 ,0, 0.5);
+    -moz-box-shadow:0 0 0 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 0 10px rgba(0,0,0,0.5);
+    box-shadow:0 0 0 10px rgba(0,0,0,0.5);
+}
+.bio
+{
+    bottom:70;
+    position:relative;
+    right:5;
+    left: 700;
+    width:300;
+    max-width:100%;
+    height:auto;
+    height:370;
+    border: 3px solid white;
+}
+.linkpic
+{
+    color:white;
+    font-size: 15;
+    font-family: cursive;
+    position:relative;
+    bottom:231;
+    left:850;
+}
+.linkpicr
+{
+    color:white;
+    font-size:15;
+    font-family:cursive;
+    position:relative;
+    left:1170;
+    bottom:270;
+}
+.act
+{
+    border: 3px solid white;
+    position:relative;
+    width:300;
+    height:150;
+    max-width:100%;
+    left:800;
+    bottom:30;
+}
+.progimg
+{
+    position:relative;
+    bottom:100;
+    max-width:100%;
+    border: 5px solid white;
+    left:110;
+    width:450;
+    height:500;
+}
+.poccopy
+{
+    margin-bottom:10;
+    width:90%;
+    height: 50%;
+    padding-left: 5px;
+    padding-right: 40px;
+    padding-bottom: 900;
+    margin:50px;
+    color:white;
+    font-family: cursive;
+    font-size: 20;
+    text-align: left;
+    line-height: 35px;
+    background: rgba(0, 0 ,0, 0.5);
+    -moz-box-shadow:0 0 0 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 0 10px rgba(0,0,0,0.5);
+    box-shadow:0 0 0 10px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,132 @@
+.film
+{
+    width:700;
+    height:400;
+    position:relative;
+    max-width:100%;
+    height:auto;
+    border:5px solid white;
+    left:500;
+    bottom:230;
+}
+.linkgled
+{
+    position:relative;
+    font-family: cursive;
+    font-size:20;
+    color:white;
+    left:100;
+    bottom:110;
+}
+.mus
+{
+    position:relative;
+    width:500;
+    height:300;
+    top:50;
+    max-width:100%;
+    height:auto;
+    left:430;
+    border: 3px solid white;
+}
+figure
+{
+    margin:0;
+    position: relative;
+    left:100;
+    bottom:780;
+}
+ad
+{
+    margin:0;
+    position:relative;
+    left:100;
+    bottom:740;
+}
+da
+{
+    margin:0;
+    position:relative;
+    left:100;
+    bottom:700;
+}
+as
+{
+    margin:0;
+    position: relative;
+    left:1070;
+    bottom:1000;
+}
+we 
+{
+    margin:0;
+    position:relative;
+    left:1070;
+    bottom:920;
+}
+wk 
+{
+    margin:0;
+    position: relative;
+    left:1070;
+    bottom:960;
+}
+.knjiga
+{
+    width:700;
+    height:400;
+    max-width:100%;
+    height:auto;
+    position:relative;
+    border:5px solid white;
+    left:500;
+    bottom:150;
+}
+.obrni1 {
+    position: relative;
+    left:480;
+    bottom:480;
+    max-width:100%;
+    height:auto;
+    background-color: transparent;
+    width: 500px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  .okreni1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style:preserve-3d;
+    box-shadow: 20 20px 20px 20  rgba(0,0,0,0.2);
+    
+  }
+  .obrni1 .okreni1 {
+    transform: rotateX(40deg);
+  }
+ .obrni1:hover .okreni1 {
+    transform: rotateX(220deg);
+  }
+  
+  .obrni1-front, .obrni1-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .obrni1-front {
+    background-image: url(muz.jpg);
+    background-size:cover;
+    color: black;
+    z-index: 2;
+  }
+  
+  .obrni1-back {
+    background-image: url(muz1.jpg);
+    background-size: cover;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+  }

@@ -1,0 +1,222 @@
+.obrni2 {
+    position: relative;
+    left:650;
+    bottom:520;
+    background-color: transparent;
+    width: 700px;
+    height: 400px;
+    perspective: 1000px;
+  }
+  .okreni2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    transform-style:preserve-3d;
+    box-shadow: 20 20px 20px 20  rgba(0,0,0,0.2);
+  }
+  .obrni2 .okreni2 {
+    transform: rotateY(-20deg);
+  }
+  .obrni2:hover .okreni2 {
+    transform: rotateX(30deg);
+  }
+  .obrni2-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .obrni2-front {
+    background-image: url(kn.jpg);
+    background-size:cover;
+    color: black;
+    z-index: 2;
+  }
+.linkcit
+{
+    position:relative;
+    font-family: cursive;
+    font-size:20;
+    color:white;
+    left:200;
+    bottom:550;
+}
+.poccopy3{
+margin-bottom: 60;
+width:90%;
+height: 50%;
+padding-left: 5px;
+padding-right: 40px;
+padding-bottom: 200;
+margin:50px;
+color:white;
+font-family: cursive;
+font-size: 20;
+text-align: left;
+line-height: 35px;
+background: rgba(0, 0 ,0, 0.5);
+-moz-box-shadow:0 0 0 10px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 0 0 10px rgba(0,0,0,0.5);
+box-shadow:0 0 0 10px rgba(0,0,0,0.5);
+}
+.obrni3 {
+    position: relative;
+    left:100;
+    bottom:480;
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+   
+  }
+  .okreni3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    transform-style:preserve-3d;
+    box-shadow: 20 20px 20px 20  rgba(0,0,0,0.2);
+  }
+  .obrni3 .okreni3 {
+    transform: rotateY(20deg);
+  }
+  .obrni3:hover .okreni3 {
+    transform: rotateX(30deg);
+  }
+  .obrni3-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .obrni3-front {
+    background-size:cover;
+    color: black;
+    z-index: 2;
+    
+  }
+  .obrni4 {
+    position: relative;
+    left:550;
+    bottom:740;
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+    
+  }
+  .okreni4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    transform-style:preserve-3d;
+    box-shadow: 20 20px 20px 20  rgba(0,0,0,0.2);
+  }
+  .obrni4 .okreni4 {
+    transform: rotateY(20deg);
+  }
+  .obrni4:hover .okreni4 {
+    transform: rotateX(30deg);
+  }
+  .obrni4-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .obrni4-front {
+    background-size:cover;
+    color: black;
+    z-index: 2;
+    
+  }
+  .obrni5 {
+    position: relative;
+    left:1000;
+    bottom:1000;
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+    
+  }
+  .okreni5 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    transform-style:preserve-3d;
+    box-shadow: 20 20px 20px 20  rgba(0,0,0,0.2);
+  }
+  .obrni5 .okreni5 {
+    transform: rotateY(20deg);
+  }
+  .obrni5:hover .okreni5 {
+    transform: rotateX(30deg);
+  }
+  .obrni5-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .obrni5-front {
+    background-size:cover;
+    color: black;
+    z-index: 2;
+  }
+  .h1 {
+    font-family: cursive;
+      position: relative;
+      text-align: center;
+      left:0;
+      bottom:750;
+      font-size: calc(6em + 5vw);
+      animation: textAnimate 5s linear infinite alternate;
+      background: linear-gradient( 92deg, #95d7e3, #eb76ff );
+      background: -webkit-linear-gradient( 92deg, #95d7e3, #eb76ff );
+      background-size:600vw 600vw;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      
+      &::after {
+        position: absolute;
+      }
+    }
+    @keyframes textAnimate {
+      from {
+        filter: hue-rotate(0deg);
+        background-position-x: 0%;
+        
+      }
+      to {
+        filter: hue-rotate(360deg);
+        background-position-x: 600vw;
+        
+      }
+    }
+  .naslov
+  {
+      font-family: cursive;
+      font-size: 30;
+      color:white;
+      position:relative;
+      left:100;
+      bottom:900;
+  }
+  .naslov1
+  {
+      font-family: cursive;
+      font-size: 30;
+      color:white;
+      position:relative;
+      left:370;
+      top:20;
+  }
+  .naslov2
+  {
+      font-family: cursive;
+      font-size: 50;
+      color:white;
+      position:relative;
+      right:10;
+      top:200;
+  }
